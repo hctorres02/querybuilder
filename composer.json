@@ -1,0 +1,22 @@
+{
+    "name": "hctorres02/querybuilder",
+    "description": "A simple SQL query builder",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "HC Torres",
+            "email": "hctorres02@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "HCTorres02\\QueryBuilder\\": "src/"
+        }
+    }
+}
