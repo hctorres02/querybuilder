@@ -13,9 +13,9 @@ trait Join
      *  
      * @return HCTorres02\QueryBuilder\Database
      */
-    public function join($referene, $clause)
+    public function join($reference, $clause)
     {
-        $this->join[] = "JOIN {$referene} ON {$clause}";
+        $this->join[] = "JOIN {$reference} ON {$clause}";
 
         return $this;
     }
