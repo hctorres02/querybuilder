@@ -2,7 +2,7 @@
 A simple SQL query builder
 
 ## Configuration
-QueryBuilder needs an environment variable named `database` containing the data from the` .env.example` file.\
+QueryBuilder needs an environment variable named `database` containing the data from the `.env.example` file.\
 You can make it available through a variable manager or using the `parse_ini_file` function.
 
 ```php
